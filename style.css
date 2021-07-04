@@ -21,11 +21,10 @@ body{
 }
 section{
     display: flex;
-    padding-bottom: 10px;
 }
 .half-width{
     width: 50%;
-    padding: 10%;
+    padding:5%;
 }
 .half-width img{
     width: 100%;
@@ -33,10 +32,13 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 .dream-bg{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.flexible-container{
+    display: flex;
 }
